@@ -1,0 +1,38 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "description": "説明.",
+  "main": "index.js",
+  "engines": {
+    "node": "~>0.10.x",
+    "npm": ">= 1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misak1/template.git"
+  },
+  "scripts": {
+    "examples": "node ./examples.js",
+    "test": "mocha --ui tdd ./tests/",
+    "doc": "php README.php | sed -e 's/NPM_PACKAGE_NAME/template/g' >  README.md "
+  },
+  "author": {
+    "name": "Misaki Shibata",
+    "email": "misaki.pink@gmail.com",
+    "url": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misak1/template/issues"
+  },
+  "dependencies": {
+    "m-util": "*"
+  },
+  "devDependencies": {
+    "should": "^7.1.1",
+    "mocha": "^2.3.3"
+  },
+  "keywords": [
+    "キーワード"
+  ]
+}
