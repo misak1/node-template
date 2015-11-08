@@ -28,7 +28,7 @@ echo file_get_contents('README-func.txt');
   <td>
   <div class="highlight highlight-source-js">
     <pre class="rich-diff-level-zero">
-require('./NPM_PACKAGE_NAME.js');
+require('NPM_PACKAGE_NAME');
 <?php
 echo implode("\n", array_slice(explode( "\n", file_get_contents('example.js')), 2));
 ?>
