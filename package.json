@@ -12,7 +12,7 @@
     "url": "https://github.com/misak1/template.git"
   },
   "scripts": {
-    "examples": "node ./examples.js",
+    "examples": "node ./example.js",
     "test": "mocha --ui tdd ./tests/",
     "doc": "php README.php | sed -e 's/NPM_PACKAGE_NAME/template/g' >  README.md "
   },
